@@ -1,127 +1,169 @@
-#  Intelligent Chatbot for Clothing Store Inventory Management				
-				
+# Hybrid Intelligent Chatbot for E-Commerce Clothing Store
 
-##  Project Overview
+## Overview
 
-This project develops an **online clothing store website** integrated with a **domain-specific intelligent chatbot**.
+The Hybrid Intelligent Chatbot for E-Commerce Clothing Store is an Artificial Intelligence–based conversational system designed to enhance online shopping experiences through intelligent assistance.
 
-The website allows the **seller/admin to manage product inventory**, while the chatbot assists customers by answering queries related to:
-
-- Product availability  
-- Size  
-- Color  
-- Price  
-- Stock  
-
-The chatbot acts as an **intelligent support component**, enhancing user experience without complicating the core business functionality.
+The system combines domain-specific product knowledge with general conversational capability, Banglish (Bengali written in Latin script) understanding, and input error correction. This hybrid design enables both accurate product discovery and flexible general interactions, simulating modern AI assistants used in contemporary e-commerce platforms.
 
 ---
 
-##  Project Purpose
+## Key Features
 
-The purpose of this project is to build a **functional e-commerce-style website** supported by an **intelligent chatbot**.
-
-The system demonstrates how **artificial intelligence can be practically embedded** into a business application to automate customer support tasks, while keeping the overall system **simple, reliable, and explainable**.
-
----
-
-##  Intelligence Design
-
-The system follows a **hybrid-ready intelligence approach**.
-
-###  Core Intelligence (Implemented)
-
-- Rule-based decision logic implemented in **PHP**
-- Uses structured product data stored in **MySQL**
-- Provides **accurate and explainable** responses
-- Handles **inventory-related queries only**
-
-### AI-Assisted Intelligence (Future Scope)
-
-- Designed to support integration with **free AI / NLP APIs**
-- Intended to improve understanding of **natural language queries**
-- Will **not control business logic or product data**
+- Intelligent product search by category, size, color, or price
+- Hybrid conversational response system
+- Banglish input interpretation
+- Natural Language Processing (NLP) logic
+- Intent detection and keyword extraction
+- Spelling and typo correction
+- Structured knowledge-base filtering
+- Real-time web-based chat interface
 
 ---
 
-##  Website Features
+## Objectives
 
-- Product listing pages  
-- Product detail view  
-- Seller/Admin panel for inventory management  
-- MySQL-based product storage  
-- Responsive frontend design  
+- Develop a hybrid conversational AI capable of handling domain-specific and general queries
+- Provide intelligent product recommendations
+- Support multilingual interaction for local users
+- Improve robustness through input normalization and correction
+- Demonstrate practical AI application in e-commerce environments
 
 ---
 
-##  Chatbot Features
+## AI Concepts Implemented
 
-- Chat-style interface integrated into the website  
-- Answers inventory-related questions  
-- Uses **rule-based intelligence**  
-- Provides **accurate, domain-limited responses**  
+- Hybrid rule-based conversational architecture
+- Natural Language Processing (NLP)
+- Intent recognition and classification
+- Pattern matching and keyword analysis
+- Multilingual input handling (Banglish)
+- Knowledge-base information retrieval
+- Context-aware response generation
+
+---
+
+## System Architecture
+
+User → Web Interface → Chat UI → Input Processing →  
+Intent Detection → Hybrid Response Engine →  
+Product Database / Knowledge Module → Response → User
+
+---
+
+## Project Scope
+
+### Included
+
+- Domain-specific clothing product search
+- General knowledge responses
+- Banglish interpretation module
+- Spelling correction system
+- Natural language query processing
+- Structured JSON knowledge base
+- Web-based chatbot integration
+
+### Excluded
+
+- Voice interaction
+- Payment processing
+- Real-time inventory synchronization
+- Large-scale machine learning model training
+- External cloud AI services
+
+---
+
+## Methodology
+
+1. Problem analysis and requirement definition  
+2. Structured dataset preparation (JSON-based product data)  
+3. Conversational logic design  
+4. Intent detection implementation  
+5. Banglish mapping module development  
+6. Error correction mechanism  
+7. Backend API development  
+8. Frontend chatbot integration  
+9. Testing and validation  
+
+---
+
+## Development Timeline (4 Weeks)
+
+### Week 1 — Planning & Dataset Design
+- Requirement analysis  
+- System architecture design  
+- Product dataset preparation  
+
+### Week 2 — Core Chatbot Development
+- NLP rule implementation  
+- Intent detection logic  
+- Hybrid response engine development  
+
+### Week 3 — Integration & Enhancement
+- Banglish support implementation  
+- Error correction module  
+- Frontend-backend integration  
+
+### Week 4 — Testing & Documentation
+- Functional testing  
+- Performance validation  
+- Debugging and optimization  
+- Final documentation  
 
 ---
 
 ## Technology Stack
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **AI Logic:** Rule-based inference (PHP)  
-- **Future AI Support:** External NLP / AI API  
+### AI / Logic Layer
+- Rule-based NLP techniques
+- Pattern matching
+- Keyword extraction
+- Input normalization
+
+### Backend
+- PHP (Server-side API)
+- JSON-based knowledge base
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Responsive UI design
+
+### Development Environment
+- XAMPP (Apache Server)
+- Visual Studio Code
 
 ---
 
-##  4-Week Project Plan & Weekly Demonstration
+## Working Principle
 
-###  Week 1: Website Foundation & Database Design
-**Focus:** Business website
-
-**Demonstration includes:**
-- Website layout (Home, Product List)
-- Database schema (Products table)
-- Basic PHP–MySQL connection
-- Explanation of project scope
+1. User submits a natural language query  
+2. System normalizes and corrects input  
+3. Intent is identified (product search or general query)  
+4. Relevant data is retrieved from the knowledge base  
+5. Hybrid logic generates a contextual response  
+6. Output is displayed in conversational format  
 
 ---
 
-###  Week 2: Seller Panel & Product Management
-**Focus:** Business functionality
+## Academic & Technical Significance
 
-**Demonstration includes:**
-- Seller/Admin login (simple)
-- Product add/update form
-- Inventory stored in database
-- Product data displayed on website
+This project demonstrates practical applications of Artificial Intelligence in:
 
----
-
-###  Week 3: Chatbot Integration
-**Focus:** Intelligent support feature
-
-**Demonstration includes:**
-- Chatbot interface on website
-- Chatbot responding to product queries
-- Rule-based decision logic demonstration
-- Inventory-aware responses
+- Hybrid conversational systems  
+- Domain-specific knowledge modeling  
+- Multilingual NLP  
+- Intelligent decision support in e-commerce  
+- Robust human-computer interaction  
 
 ---
 
-###  Week 4: Testing, AI Scope & Final Presentation
-**Focus:** Polishing & explanation
+## Future Enhancements
 
-**Demonstration includes:**
-- Complete working website
-- Chatbot assisting customers
-- Edge-case handling
-- Explanation of future AI API integration
-
----
-
-##  Conclusion
-
-This project demonstrates how an **intelligent chatbot** can be effectively integrated into a **business-oriented web application**.
-
-By keeping the chatbot **domain-specific and rule-based**, the system remains **simple, explainable, and suitable for academic evaluation**, while also being **scalable for future AI enhancements**.
-
+- Machine learning–based intent classification
+- Personalized recommendation system
+- Context-aware dialogue memory
+- Voice interaction capability
+- Multi-language support expansion
+- Integration with real-time databases
